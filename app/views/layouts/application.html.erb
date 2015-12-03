@@ -12,16 +12,11 @@
 </head>
 <body>
 
-	<header id="main_navigation" class="clearfix">
-    	<a href="#" class="name">Drmrsan</a>
-    	<nav>
-    		<%= link_to "Articles", posts_path %>
-    		<a href="#">Projects</a>
-    		<a href="contact.html">Contact</a>
-    	</nav>
-    </header>
+<%= render 'partials/header' %>
 
 <%= yield %>
+
+<%= render 'partials/footer' %>
 
 </body>
 </html>
