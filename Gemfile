@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
-
 gem 'rails', '4.2.5'
 
 gem 'sass-rails', '~> 5.0'
@@ -26,6 +24,10 @@ end
 
 group :development do
 	gem 'sqlite3'
+	gem 'guard-livereload', '~> 2.4', require: false
+	gem "rack-livereload"
+	gem 'ruby_gntp'
+	gem 'libnotify'
 end
 
 group :production do
