@@ -28,11 +28,17 @@ group :development do
 	gem "rack-livereload"
 	gem 'ruby_gntp'
 	gem 'libnotify'
+	gem 'capistrano'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-rails'
+  gem 'capistrano-bundler'
+  gem 'capistrano3-puma'
 end
 
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
+	gem 'puma'
 end
 
 
