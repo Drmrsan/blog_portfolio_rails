@@ -2,7 +2,7 @@
 server '46.101.197.88', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:Drmrsan/blog_portfolio_rails.git'
-set :application,     'drmrsanblog'
+set :application,     'blog_portfolio_rails'
 set :user,            'demo'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
