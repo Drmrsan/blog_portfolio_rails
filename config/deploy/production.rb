@@ -46,6 +46,9 @@
 #    forward_agent: false,
 #    auth_methods: %w(password)
 #  }
+set :ssh_options, {  
+    verbose: :debug
+}
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
